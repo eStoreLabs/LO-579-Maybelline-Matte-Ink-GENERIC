@@ -263,8 +263,8 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  min-width: 180px;
-  min-height: 330px;
+  min-width: 105px;
+  min-height: 200px;
 }
 #es-rc #es-rc-content .es-colors .es-color__name {
   text-transform: uppercase;
@@ -477,6 +477,20 @@
   transition: color 0.3s;
   width: 100%;
 }
+@media (min-width: 440px) {
+  #es-rc #es-rc-content .es-colors__container {
+    max-width: 70%;
+  }
+}
+@media (min-width: 470px) {
+  #es-rc #es-rc-content .es-colors .es-color {
+    min-width: 180px;
+    min-height: 330px;
+  }
+  #es-rc #es-rc-content .es-colors__container {
+    max-width: 85%;
+  }
+}
 @media (min-width: 500px) {
   #es-rc #es-rc-content .es-kv {
     display: flex;
@@ -592,12 +606,12 @@
     font-size: 60px;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 680px) {
   #es-rc #es-rc-content .es-colors__container {
     max-width: 100%;
   }
   #es-rc #es-rc-content .es-colors .es-color {
-    min-width: 160px;
+    min-width: 155px;
   }
 }
 @media (min-width: 768px) {

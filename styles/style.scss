@@ -369,8 +369,8 @@ $primary: #000000;
       -webkit-box-direction: normal;
       flex-direction: column;
       gap: 16px;
-      min-width: 180px;
-      min-height: 330px;
+      min-width: 105px;
+      min-height: 200px;
 
       &__name {
         text-transform: uppercase;
@@ -650,6 +650,27 @@ $primary: #000000;
     width: 100%;
   }
 
+  @media (min-width: 440px) {
+    .es-colors {
+      &__container {
+        max-width: 70%;
+      }
+    }
+  }
+
+  @media (min-width: 470px) {
+    .es-colors {
+      .es-color {
+        min-width: 180px;
+        min-height: 330px;
+      }
+
+      &__container {
+        max-width: 85%;
+      }
+    }
+  }
+
   @media (min-width: 500px) {
     .es-kv {
       display: -webkit-box;
@@ -827,7 +848,7 @@ $primary: #000000;
     }
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 680px) {
 
 
     .es-colors {
@@ -836,7 +857,7 @@ $primary: #000000;
       }
 
       .es-color {
-        min-width: 160px;
+        min-width: 155px;
       }
     }
   }
