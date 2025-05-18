@@ -665,6 +665,9 @@
   }
 }
 @media (min-width: 1024px) {
+  #es-rc #es-rc-content .es-kv__left {
+    width: 50%;
+  }
   #es-rc #es-rc-content .es-colors__title {
     padding-bottom: 38px;
     position: absolute;
