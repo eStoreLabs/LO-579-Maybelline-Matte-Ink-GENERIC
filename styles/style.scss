@@ -509,7 +509,7 @@ $primary: #000000;
     &__single-title {
       font-family: $font-regular;
       font-weight: 700;
-      font-size: 44px;
+      font-size: 24px;
       line-height: 100%;
       text-transform: uppercase;
       text-align: center;
@@ -926,6 +926,10 @@ $primary: #000000;
 
       &__single-description {
         font-size: 18px;
+      }
+
+      &__single-title {
+        font-size: 44px;
       }
     }
 
