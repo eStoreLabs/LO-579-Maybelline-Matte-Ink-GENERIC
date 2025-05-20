@@ -108,7 +108,7 @@
   justify-content: center;
 }
 #es-rc #es-rc-content .es-kv__packshot--bg {
-  width: 80%;
+  width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
